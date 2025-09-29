@@ -22,3 +22,54 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# === JAVA ===
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+
+# Gradle
+**/.gradle/
+**/build/
+**/out/
+**/gradle-app.setting
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+**/.gradletasknamecache
+**/.gradle-build-cache/
+
+# === JetBrains IDEA ===
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/.idea_modules/
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.local.xml
+**/.idea/**/dataSources.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
+**/.idea/**/dbnavigator.xml
+
+# JetBrains IDEs: Other
+**/.idea/**/libraries
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
