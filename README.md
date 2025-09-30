@@ -32,23 +32,23 @@ spring-boot-training/
 ## 🚀 Modules Overview
 
 ### Patterns
-- **patterns-singleton** → Implementation of the Singleton Pattern.  
-- **patterns-factory** → Implementation of the Factory Pattern.  
-- **patterns-facade** → Implementation of the Facade Pattern.  
+1. **patterns-singleton** → Implementation of the Singleton Pattern.  
+2. **patterns-factory** → Implementation of the Factory Pattern.  
+3. **patterns-facade** → Implementation of the Facade Pattern.  
 
 ### Spring Boot
-- **spring-basic-demo** → Minimal Spring Boot application with simple controllers and services.  
-- **spring-basic-demo-dto** → Adds DTOs, a facade layer, and MapStruct integration.  
-- **spring-basic-demo-tests** → Demonstrates testing with Spring Boot (unit & integration).  
+1. **spring-basic-demo** → Minimal Spring Boot application with simple controllers and services.  
+2. **spring-basic-demo-dto** → Adds DTOs, a facade layer, and MapStruct integration.
+3. **spring-basic-demo-tests** → Demonstrates testing with Spring Boot (unit & integration).
 
 ---
 
 ## 🛠️ Tech Stack
-- **Java 21**
+- **Java 17**
 - **Spring Boot 3.x**
-- **Spring Cloud (optional, future exercises)**
 - **MapStruct**
 - **JUnit 5 / Mockito**
+- **AssertJ**
 
 ---
 
@@ -56,5 +56,5 @@ spring-boot-training/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/spring-boot-training.git
+   git clone https://github.com/ecoronado96/spring-boot-training.git
    cd spring-boot-training
